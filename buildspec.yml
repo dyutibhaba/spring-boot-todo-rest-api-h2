@@ -5,8 +5,7 @@ run-as: Linux-user-name
 phases:
   install:
     runtime-versions:
-      java: openjdk8
-      runtime: version
+      java: openjdk11
     commands:
       - echo install
     finally:
