@@ -8,9 +8,6 @@ phases:
       java: corretto11
     commands:
       - echo install
-    finally:
-      - command
-      - command
   pre_build:
     commands:
       - echo pre_build
