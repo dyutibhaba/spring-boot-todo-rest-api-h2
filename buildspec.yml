@@ -7,14 +7,14 @@ phases:
     runtime-versions:
       java: corretto11
     commands:
-      - echo install
+      - echo installing
   pre_build:
     commands:
       - echo pre_build
   build:
     commands:
       - mvn package
-      - echo build
+      - echo building
   post_build:
     commands:
       - echo post_build
